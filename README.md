@@ -1,7 +1,7 @@
+#ngx_time_var_module
 This module provides some time variables of nginx. The variables are all from the nginx cached content(no syscall and computing of time).
 
 #Usage
------
 
 ##Working example:
 
@@ -39,7 +39,6 @@ This module provides some time variables of nginx. The variables are all from th
     1325966061
 
 #Installation
-------------
 
     ./configure --add-module=/path/to/ngx_http_time_var_module
 
