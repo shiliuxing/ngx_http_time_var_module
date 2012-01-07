@@ -1,8 +1,9 @@
 This module provides some time variables of nginx. The variables are all from the nginx cached content(no syscall and computing of time).
-Usage
+
+#Usage
 -----
 
-Working example:
+##Working example:
 
     default_type text/plain;
     echo 'year  :$tm_year';
@@ -20,7 +21,7 @@ Working example:
     echo $tm_tomsec;
     echo $tm_tosec;
 
-output:
+##output:
 
     year  :2012
     month :01
@@ -37,7 +38,7 @@ output:
     1325966061.521
     1325966061
 
-Installation
+#Installation
 ------------
 
     ./configure --add-module=/path/to/ngx_http_time_var_module
