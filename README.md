@@ -1,4 +1,4 @@
-#ngx_time_var_module
+#ngx_http_time_var_module
 This module provides some time variables of nginx. The variables are all from the nginx cached content(no syscall and computing of time).
 
 #Usage
@@ -21,7 +21,7 @@ This module provides some time variables of nginx. The variables are all from th
     echo $tm_tomsec;
     echo $tm_tosec;
 
-##output:
+##Output:
 
     year  :2012
     month :01
